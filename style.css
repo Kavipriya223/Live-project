@@ -1,0 +1,327 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.d{
+    height: 650px;
+    width: 100%;
+       
+        background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(img/fb2.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content:space-evenly;
+
+    }
+.text{
+    width: 530px;
+}
+.text h3{
+    color: white;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text p{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 1.4;
+    font-size: 17px;
+}
+.img img{
+    height: 300px;
+    width: 480px;
+    border-radius: 10px;
+    transition: 400ms;
+
+ }
+ .img img:hover{
+     transform: scale(1.05);
+}
+.d1{
+    height: 650px;
+    width: 100%;
+       
+        background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url(img/pe1.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content:space-evenly;
+
+    }
+    .d2{
+        height: 650px;
+        width: 100%;
+           
+            background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url(img/ba1.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content:space-evenly;
+    
+        }
+        .d3{
+            height: 650px;
+            width: 100%;
+               
+                background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url(img/lo1.jpg);
+                background-attachment: fixed;
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                justify-content:space-evenly;
+        
+            }
+            #nav{
+                position: absolute;
+                z-index: 2;
+                width: 100%;
+            }
+            .carousel-caption{
+                position: absolute;
+                left: 0;
+                top: 40%;
+                text-align: left;
+            }
+            .carousel-caption h5{
+                font-size: 4em;
+            }
+            .fa-twitter{
+                width: 50px;
+                height: 50px;
+            }
+            .fa-facebook{
+                width: 50px;
+                height: 50px;
+            }
+            .fa-instagram{
+                width: 50px;
+                height: 50px;
+            }
+            #scroll{
+                width: 430px;
+                height: 200;
+            }
+            #highlights{
+                height: 400px;
+                background-image: url('images/high.jpg');
+                background-repeat: no-repeat;
+                color: white;
+                width: 100%;
+            }
+#footer{
+    background-color: #141d28;
+}
+#btn{
+    background-color:black;
+    color: white;
+    border-width:2px ;
+    border-style: solid;
+    border-color: white;
+    margin-top: 20px;
+}
+#btn:hover{
+    background-color:#d13835f1 ;
+}
+
+:root
+{
+  --color-primary: #d13835f1;
+  --color-white: #e9e9e9;
+  --color-black: #141d28;
+  --color-black-1: #212b38;
+}
+*
+{
+     margin:0px;
+     padding:0px;
+     box-sizing:border-box;
+}
+body
+{
+     font-family:apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.menu_bar img
+{
+     width:180px;
+     color: var(--color-white);
+}
+.menu_bar 
+{
+     position:fixed;
+     background-color: var(--color-black);
+     height:80px;
+     width:100%;
+     display:flex;
+     align-items:center;
+     justify-content: space-between; 
+     padding:0 2%;
+
+}
+.menu_bar ul
+{
+     list-style: none;
+     display: flex;
+}
+.menu_bar ul li
+{
+     font-weight: 500;
+     /* padding: 10px 20px; */
+     position: relative;
+     margin-right:80px;
+}
+.menu_bar ul li a 
+{
+     color: var(--color-white);
+     text-decoration: none;
+     font-size:16px;
+     transition: all 0.3s;
+     margin-left: 10px;
+}
+.menu_bar ul li a:hover
+{
+     color: var(--color-primary); 
+}
+.dropdown_menu
+{
+     display: none;
+}
+.menu_bar ul li:hover .dropdown_menu
+{
+     display: block;
+     position: absolute;
+     left: 0;
+     margin-right:-160px;
+     top:100%;
+     background-color: var(--color-black);
+}
+.menu_bar ul li:hover .dropdown_menu ul
+{
+     display: block;
+     margin: 10px; 
+}
+.menu_bar ul li:hover .dropdown_menu ul li
+{
+    width: 330px;   
+    padding: 7px;
+    justify-content: center;
+}
+.fas 
+{
+     float: right;
+     margin-left: 10px;
+     padding-top: 5px;
+}
+.dropdown_menu-1
+{
+     display: none;
+}
+.dropdown_menu ul li:hover .dropdown_menu-1
+{
+     display:block;
+     position: absolute; 
+     margin-top: -40px;
+     margin-left:140px;
+     width:330px;  
+     left: 270px; 
+     background-color: var(--color-black);
+}
+
+/* .btn
+{
+     background-color: var(--color-primary);
+     width:200px;
+} */
+::-webkit-scrollbar
+{
+     width:15px;
+}
+::-webkit-scrollbar-track
+{
+     background:var(--color-black)
+
+}
+::-webkit-scrollbar-thumb
+{
+     background: var(--color-primary);
+     border-radius: 8px;
+
+}
+.checkbutton
+{
+     font-size: 30px;
+     color:aliceblue;
+     float:right ;
+     line-height:80px;
+     margin-right:40px;
+     cursor:pointer;
+     display: none;
+}
+.myCheckBox
+{
+     display: none;
+}
+@media screen and (max-width:952px) {
+     .menu_bar img
+     {
+          font-size:30px;
+          padding-left:50px;
+     }
+     .menu_bar ul li a
+     {
+          font-size:16px;
+     }
+}
+@media screen and (max-width:858px)
+{
+     .checkbutton
+     {
+          display: block;
+     }
+
+     ul
+     {
+          position: fixed;
+          width:100%;
+          height:100vh;
+          background: var(--color-black-1);
+          top:80px;
+          left:-100px;
+          text-align:center;
+          transition:all .5s;
+     }
+     .menu_bar ul li
+     {
+          display: block;
+          margin: 50px 0;
+          line-height: 30px;
+     }
+     .menu_bar ul li a
+     {
+          font-size:20px;
+          background: var(--color-white);
+     }
+     a:hover,a.active
+     {
+          background: var(--color-primary);
+     }
+     .myCheckBox:checked ~ ul
+     {
+          left:0;
+     };
+}
